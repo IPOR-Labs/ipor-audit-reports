@@ -4,10 +4,19 @@ Full audit evidence for the current **IPOR Fusion** vault infrastructure (Plasma
 scope, dates, auditors and completed reports — is published at
 **[docs.ipor.io/build-on-fusion/developer-guide/security-and-audits](https://docs.ipor.io/build-on-fusion/developer-guide/security-and-audits)**.
 
-This repository holds the audit reports for the earlier **IPOR interest-rate-derivatives protocol**
-(the IPOR Index, AMM and Liquidity Mining contracts that predate Fusion).
+This repository holds the latest IPOR Fusion security review and the audit reports for the earlier
+**IPOR interest-rate-derivatives protocol** (the IPOR Index, AMM and Liquidity Mining contracts
+that predate Fusion).
 
 ## Reports in this repository
+
+### IPOR Fusion
+
+| Report | Auditor | Date | Scope | Findings |
+|---|---|---|---|---|
+| [IPOR Fusion security review](<./IPOR Fusion security review - 2026.11 - Three Sigma.pdf>) ([summary](<./IPOR Fusion security review - 2026.11 - Three Sigma.md>)) | Three Sigma | 2026-10-29 to 2026-11-14 | Fusion Vault and managers, crosschain extension on Chainlink CCIP, HyperCore, Euler V2, ERC-4626 Supply, Universal Token Swapper with Verification and Plasma Vault Request Shares fuses | 34 total — 0 Critical, 5 High, 19 Medium, 10 Low. 25 addressed, 9 acknowledged. |
+
+### IPOR interest-rate-derivatives protocol
 
 | Report | Auditor | Date | Scope | Findings |
 |---|---|---|---|---|
@@ -18,9 +27,10 @@ This repository holds the audit reports for the earlier **IPOR interest-rate-der
 Each report above has a companion Markdown summary in this repo with the full findings breakdown
 and the current status of every finding.
 
-## Looking for Fusion vault audits?
+## Looking for other Fusion vault audits?
 
-IPOR Fusion is a separate, newer product from the interest-rate-derivatives protocol audited here,
-and is audited independently. See
+IPOR Fusion is a separate, newer product from the interest-rate-derivatives protocol, and is
+audited independently. See
 [Security and Audits](https://docs.ipor.io/build-on-fusion/developer-guide/security-and-audits) on
-docs.ipor.io for the BlocSec and Protofire reports covering the live Fusion contracts.
+docs.ipor.io for the full list of Fusion audits, including the earlier BlockSec and Protofire
+reports.
